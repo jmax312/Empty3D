@@ -24,4 +24,9 @@ class ofApp : public ofBaseApp
 		ofTrueTypeFontExt		fontSmall;
     
     ofMesh mesh;
+
+	ofVec3f pos, circ; 
+	float radius;
+	ofColor color;
+	int H, W;
 };
